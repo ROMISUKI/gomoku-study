@@ -1,0 +1,12 @@
+keystore/
+dist/
+qa/browser-profile/
+qa/downloads/
+qa/extracted/
+qa/minimal/
+qa/app.html
+qa/release-source.html
+qa/failure.png
+qa/apk-report.json
+qa/ui-report.json
+*.log

@@ -1,0 +1,136 @@
+TAP version 13
+# Subtest: all lessons are complete, original teaching positions are playable and quizzes have valid answers
+ok 1 - all lessons are complete, original teaching positions are playable and quizzes have valid answers
+  ---
+  duration_ms: 14.1038
+  type: 'test'
+  ...
+# Subtest: system path covers every lesson exactly once and keeps a valid teaching order
+ok 2 - system path covers every lesson exactly once and keeps a valid teaching order
+  ---
+  duration_ms: 1.2323
+  type: 'test'
+  ...
+# Subtest: 26 named openings have distinct symmetry classes and correct central constraints
+ok 3 - 26 named openings have distinct symmetry classes and correct central constraints
+  ---
+  duration_ms: 5.1206
+  type: 'test'
+  ...
+# Subtest: all short opening branches are legal under renju, have commentary for every move and no hidden turn errors
+ok 4 - all short opening branches are legal under renju, have commentary for every move and no hidden turn errors
+  ---
+  duration_ms: 4.3536
+  type: 'test'
+  ...
+# Subtest: all generated puzzle answers carry checked winning/defensive certificates
+ok 5 - all generated puzzle answers carry checked winning/defensive certificates
+  ---
+  duration_ms: 140.9338
+  type: 'test'
+  ...
+# Subtest: one-move goals accept ALL solutions, including both open-four extensions
+ok 6 - one-move goals accept ALL solutions, including both open-four extensions
+  ---
+  duration_ms: 65.8403
+  type: 'test'
+  ...
+# Subtest: the illustrated gong line really works and fails if its support is removed
+ok 7 - the illustrated gong line really works and fails if its support is removed
+  ---
+  duration_ms: 0.9088
+  type: 'test'
+  ...
+# Subtest: coordinate roundtrip, all edges and invalid input
+ok 8 - coordinate roundtrip, all edges and invalid input
+  ---
+  duration_ms: 1.9782
+  type: 'test'
+  ...
+# Subtest: four directions win, no wrapping, immutable analysis
+ok 9 - four directions win, no wrapping, immutable analysis
+  ---
+  duration_ms: 2.3588
+  type: 'test'
+  ...
+# Subtest: renju overline, white overline, exact-five priority over forbidden
+ok 10 - renju overline, white overline, exact-five priority over forbidden
+  ---
+  duration_ms: 0.2402
+  type: 'test'
+  ...
+# Subtest: a straight open four is one four, same-line double-four is detected
+ok 11 - a straight open four is one four, same-line double-four is detected
+  ---
+  duration_ms: 0.3604
+  type: 'test'
+  ...
+# Subtest: double-four, real double-three and legal white fork
+ok 12 - double-four, real double-three and legal white fork
+  ---
+  duration_ms: 1.6132
+  type: 'test'
+  ...
+# Subtest: false three blocked by edge, by stone and by forbidden continuation
+ok 13 - false three blocked by edge, by stone and by forbidden continuation
+  ---
+  duration_ms: 0.9231
+  type: 'test'
+  ...
+# Subtest: symmetry preserves stones and distinct fifth proposals
+ok 14 - symmetry preserves stones and distinct fifth proposals
+  ---
+  duration_ms: 1.7455
+  type: 'test'
+  ...
+# Subtest: VCF proves four-three against forced defense; counter-win refutes
+ok 15 - VCF proves four-three against forced defense; counter-win refutes
+  ---
+  duration_ms: 2.6893
+  type: 'test'
+  ...
+# Subtest: rule decisions are invariant under all rotations and reflections
+ok 16 - rule decisions are invariant under all rotations and reflections
+  ---
+  duration_ms: 4.1444
+  type: 'test'
+  ...
+# Subtest: seeded random win checks agree with an independent full-line scanner
+ok 17 - seeded random win checks agree with an independent full-line scanner
+  ---
+  duration_ms: 217.8414
+  type: 'test'
+  ...
+# Subtest: save/read, notes, independent storage identity
+ok 18 - save/read, notes, independent storage identity
+  ---
+  duration_ms: 1.9528
+  type: 'test'
+  ...
+# Subtest: bad existing data is preserved, not silently overwritten
+ok 19 - bad existing data is preserved, not silently overwritten
+  ---
+  duration_ms: 0.2467
+  type: 'test'
+  ...
+# Subtest: valid import preserves original; failed validation or backup leaves it untouched
+ok 20 - valid import preserves original; failed validation or backup leaves it untouched
+  ---
+  duration_ms: 0.4947
+  type: 'test'
+  ...
+# Subtest: reject malicious input, unknown ids, oversized notes, duplicate coordinates and invalid counts
+ok 21 - reject malicious input, unknown ids, oversized notes, duplicate coordinates and invalid counts
+  ---
+  duration_ms: 0.3384
+  type: 'test'
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 416.7449
